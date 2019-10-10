@@ -15,8 +15,8 @@ export default {
   baseUrl: {
     // dev: 'https://api.our-dream.cn/admin/',
     // pro: 'https://pet.apiadmin.net/admin/'
-    dev: 'http://localhost:8001/admin/',
-    pro: 'http://localhost:8001/admin/'
+    dev: 'http://localhost:8085/admin/',
+    pro: 'http://localhost:8085/admin/'
   },
   /**
    * @description 需要加载的插件

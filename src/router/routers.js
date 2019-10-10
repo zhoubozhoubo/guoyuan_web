@@ -224,38 +224,38 @@ export default [
       }
     ]
   },
-  {
-    path: '/content',
-    name: 'content',
-    meta: {
-      icon: 'ios-build',
-      title: '系统配置',
-      access: ['admin/Menu/index']
-    },
-    component: Main,
-    children: [
-      {
-        path: 'news',
-        name: 'news',
-        meta: {
-          icon: 'md-menu',
-          title: '新闻管理',
-          access: 'admin/Menu/index'
-        },
-        component: () => import('@/view/content/news/list.vue')
-      },
-      {
-        path: 'news_two',
-        name: 'news_two',
-        meta: {
-          icon: 'md-menu',
-          title: '新闻管理222',
-          access: 'admin/Menu/index'
-        },
-        component: () => import('@/view/content_news/content_news/content_news.vue')
-      }
-    ]
-  },
+  // {
+  //   path: '/content',
+  //   name: 'content',
+  //   meta: {
+  //     icon: 'ios-build',
+  //     title: '系统配置',
+  //     access: ['admin/Menu/index']
+  //   },
+  //   component: Main,
+  //   children: [
+  //     {
+  //       path: 'news',
+  //       name: 'news',
+  //       meta: {
+  //         icon: 'md-menu',
+  //         title: '新闻管理',
+  //         access: 'admin/Menu/index'
+  //       },
+  //       component: () => import('@/view/content/news/list.vue')
+  //     },
+  //     {
+  //       path: 'news_two',
+  //       name: 'news_two',
+  //       meta: {
+  //         icon: 'md-menu',
+  //         title: '新闻管理222',
+  //         access: 'admin/Menu/index'
+  //       },
+  //       component: () => import('@/view/content_news/content_news/content_news.vue')
+  //     }
+  //   ]
+  // },
   {
     path: '/goods',
     name: 'goods',
